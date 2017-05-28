@@ -21,6 +21,7 @@ The summarizedData.csv table has exactly the same structure as the first table, 
 Both data sets (mergedData.csv and summarizedData.csv) are generated using the cleanData.R script. In order to re-generate the data, just open R and type the following in the command prompt:
 
 \> source("cleanData.R")
+
 \> cleanData()
 
 Note that in order to generate the summary, the reshape2 R package was used, which needs to be installed in order for the scripts to work.
